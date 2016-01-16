@@ -1,7 +1,7 @@
  html,
  body {
      overflow-x: hidden!important;
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "brandon-grotesque-med", sans-serif;
  }
 
  *{
@@ -22,9 +22,10 @@
  }
 
  .main h1.lead {
+    font-family: 'brandon-grotesque-bold';
  	font-size: 70px;
  	color: #f22a62;
- 	margin-left: 30px;
+    margin: -10px 0 -10px 30px;
  }
 
  .main h3 {
@@ -34,7 +35,7 @@
 
  .main h3.engaged {
  	text-align: right;
- 	max-width: 700px;
+ 	max-width: 550px;
  }
 
  .from {
@@ -46,9 +47,26 @@
  }
 
  .from h2 {
+    font-family: 'brandon-grotesque-bold';
  	font-size: 30px;
  }
 
  .ps {
  	color: lightgray;
  }
+
+
+ @font-face {
+    font-family: 'brandon-grotesque-bold';
+    src: url('fonts/Brandon_bld.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'brandon-grotesque-med';
+    src: url('fonts/Brandon_med.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
