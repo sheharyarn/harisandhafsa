@@ -1,0 +1,54 @@
+ html,
+ body {
+     overflow-x: hidden!important;
+    font-family: "brandon-grotesque", sans-serif;
+ }
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+ 	background: url(bg.jpg) no-repeat center top fixed;
+ }
+
+ .container {
+ 	margin: 200px 100px 100px 100px;
+ }
+
+ .main {
+ 	margin-bottom: 250px;
+ }
+
+ .main h1.lead {
+ 	font-size: 70px;
+ 	color: #f22a62;
+ 	margin-left: 30px;
+ }
+
+ .main h3 {
+ 	font-size: 30px;
+ 	margin: 20px 0 20px 0;
+ }
+
+ .main h3.engaged {
+ 	text-align: right;
+ 	max-width: 700px;
+ }
+
+ .from {
+ 	margin-bottom: 30px;
+ }
+
+ .from h3 {
+ 	margin-bottom: 15px;
+ }
+
+ .from h2 {
+ 	font-size: 30px;
+ }
+
+ .ps {
+ 	color: lightgray;
+ }
