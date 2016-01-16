@@ -14,7 +14,7 @@
  }
 
  .container {
- 	margin: 200px 100px 100px 100px;
+ 	margin: 200px 100px 20px 100px;
  }
 
  .main {
@@ -53,6 +53,33 @@
 
  .ps {
  	color: lightgray;
+ }
+
+ @media screen and (max-width: 480px) {
+    .container {
+        margin: 100px 30px 0 30px;
+    }
+
+    .main {
+        margin-bottom: 200px;
+    }
+
+    .main h1.lead {
+        font-size: 45px;
+        margin-left: 15px;
+    }
+
+    .main h3 {
+        font-size: 25px;
+    }
+
+    .from h3 {
+        font-size: 15px;
+    }
+
+    .from h2 {
+        font-size: 24px;
+    }
  }
 
 
